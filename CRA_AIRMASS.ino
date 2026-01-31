@@ -17,7 +17,7 @@ HardwareSerial_NB_BC95 AISnb;
 unsigned long previousMillis, taskMillis, timeTask;
 
 const char* ssid = "greenioIoT";
-const char* password = "green7650";
+const char* password = "*********";
 
 String deviceToken, mqttTK, control_version;
 
