@@ -5,7 +5,7 @@ WiFiClientSecure wifiClient;
 HTTPClient http;
 
 //http(s)://$THINGSBOARD_HOST_NAME/api/v1/$ACCESS_TOKEN/telemetry
-String serverName = "https://thingcontrol.io/api/v1/";
+String serverName = "___________________________________________";
 
 void httpSend(String msg){
 
@@ -22,4 +22,5 @@ void httpSend(String msg){
     // Free resources
     http.end();
     
+
 }
